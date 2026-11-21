@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Bottega Artigiana Cuoio & Stile | Vera Pelle Fiorentina Fatta a Mano</title>
+  
+  <!-- Polices Google : Cormorant Garamond (Serif noble florentin) & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <style>
+    :root {
+      --color-cuoio: #78350F;
+      --color-cognac: #9A3412;
+      --color-crema: #FAF7F2;
+      --color-sabbia: #F3ECE1;
+      --color-ottone: #B48A3C;
+      --color-sauge: #4A5D4E;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--color-crema);
+      color: #1F1B18;
+    }
+    h1, h2, h3, .font-editorial {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+    .hero-atelier {
+      background-image: linear-gradient(180deg, rgba(20, 16, 14, 0.75) 0%, rgba(20, 16, 14, 0.45) 50%, rgba(20, 16, 14, 0.85) 100%), url('assets/hero.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .pattern-leather {
+      background-color: #FAF7F2;
+      background-image: radial-gradient(#E8DFC9 0.75px, transparent 0.75px);
+      background-size: 16px 16px;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-amber-900 selection:text-amber-100 pb-20 sm:pb-0">
+
+  <!-- Bandeau Démo Codabee -->
+  <div class="bg-stone-900 text-stone-300 px-4 py-2 text-xs flex justify-between items-center border-b border-stone-800">
+    <div class="flex items-center gap-2">
+      <span class="inline-block w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+      <span class="font-medium text-stone-200">Proposta di demo realizzata da <strong>Codabee</strong></span>
+      <span class="hidden sm:inline text-stone-400">• Ottimizzata per mobile & richieste su misura via WhatsApp</span>
+    </div>
+    <span class="bg-stone-800 text-amber-400 font-mono text-[11px] px-2 py-0.5 rounded border border-stone-700">Bozza Privata (Noindex)</span>
+  </div>
+
+  <!-- Barre d'infos rapides & localisation -->
+  <div class="bg-[#261E1A] text-[#E5DCD3] text-xs py-2 px-4 border-b border-[#3D322B]">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-1.5 text-center sm:text-left">
+      <div class="flex items-center gap-2">
+        <span class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-amber-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>Via dei Serragli 34/R, Santo Spirito • Firenze</span>
+        <span class="text-amber-600 hidden md:inline">|</span>
+        <span class="text-stone-400 hidden md:inline">Aperto dal Lunedì al Sabato 09:30 - 19:30</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="tel:+39055987654" class="text-amber-300 hover:text-white font-medium flex items-center gap-1">
+          <svg class="w-3.5 h-3.5 text-amber-300 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg> +39 055 987654
+        </a>
+        <a href="https://wa.me/39055987654?text=Buongiorno%2C%20vorrei%20informazioni%20sulle%20vostre%20creazioni%20in%20pelle" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-medium flex items-center gap-1">
+          <svg class="w-3.5 h-3.5 text-emerald-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg> WhatsApp Bottega
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation principale -->
+  <header class="sticky top-0 z-40 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-[#E8DEC8] transition-all">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3.5 flex justify-between items-center">
+      <a href="#" class="flex flex-col">
+        <span class="font-editorial text-2xl sm:text-3xl font-bold tracking-wider uppercase text-[#3A2216]">Cuoio & Stile</span>
+        <span class="text-[10px] sm:text-[11px] tracking-[0.22em] uppercase font-semibold text-[#8C6D4F]">Bottega Artigiana • Firenze</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-[#4A3B32]">
+        <a href="#tradizione" class="hover:text-[#9A3412] transition-colors">La Tradizione</a>
+        <a href="#creazioni" class="hover:text-[#9A3412] transition-colors">Le Creazioni</a>
+        <a href="#su-misura" class="hover:text-[#9A3412] transition-colors">Su Misura</a>
+        <a href="#laboratorio" class="hover:text-[#9A3412] transition-colors">L'Atelier</a>
+        <a href="#contatti" class="hover:text-[#9A3412] transition-colors">Dove Siamo</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/39055987654?text=Buongiorno%2C%20vorrei%20richiedere%20una%20creazione%20personalizzata" target="_blank" class="hidden sm:inline-flex items-center gap-2 bg-[#78350F] hover:bg-[#5C270A] text-amber-50 px-4 py-2 rounded-lg text-xs font-semibold tracking-wide uppercase shadow-sm transition-all">
+          <svg class="w-4 h-4 fill-current text-amber-300" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.19.014.305-.058.115-.087.187-.173.289l-.26.309c-.087.088-.179.183-.077.358.101.174.45 1.745 1.637 2.784.456.401.839.525 1.056.634.188.094.298.079.409-.049.111-.128.477-.557.604-.748.127-.19.255-.16.425-.097.17.063 1.082.51 1.269.604.187.094.312.141.358.219.046.078.046.45-.098.855z"/></svg>
+          Richiedi su Misura
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-atelier relative text-white py-20 sm:py-28 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="inline-block py-1 px-3 rounded-full bg-amber-950/80 border border-amber-600/40 text-amber-300 text-xs tracking-widest uppercase font-semibold mb-4 backdrop-blur-sm">
+        Artigianato d'Arte • Santo Spirito, Firenze
+      </span>
+      <h1 class="font-editorial text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-tight sm:leading-none mb-6">
+        L'anima del vero cuoio fiorentino, cucito a mano con passione.
+      </h1>
+      <p class="text-stone-200 text-base sm:text-xl font-light max-w-2xl mx-auto mb-8 leading-relaxed">
+        Borse, cinture e cartelle realizzate esclusivamente con cuoio toscano conciato al vegetale. Ogni pezzo nasce nel nostro laboratorio storico e racconta una storia destinata a durare nel tempo.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#creazioni" class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-[#9A3412] hover:bg-[#7C2D12] text-white font-medium text-sm tracking-wide uppercase shadow-lg shadow-amber-950/50 transition-all text-center">
+          Guarda le Nostre Creazioni
+        </a>
+        <a href="https://wa.me/39055987654?text=Buongiorno%2C%20vorrei%20informazioni%20sull%27acquisto%20di%20una%20vostra%20creazione" target="_blank" class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-emerald-700/90 hover:bg-emerald-600 text-white font-medium text-sm tracking-wide uppercase backdrop-blur-sm shadow-md transition-all flex items-center justify-center gap-2">
+          <span>Scrivici su WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Réassurance & Valeurs de l'Atelier -->
+  <section class="border-y border-[#E2D5BE] bg-[#F5EFE6] py-8 px-4">
+    <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
+      <div class="flex items-start gap-3">
+        <div class="w-10 h-10 rounded-full bg-[#EADDCC] border border-[#C5B396] flex items-center justify-center shrink-0 text-[#78350F]"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 0 0 9-9c0-4.97-4.03-9-9-9-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L12 21zm0 0V10"/></svg></div>
+        <div>
+          <h4 class="font-semibold text-sm text-[#3A2216]">Concia al Vegetale</h4>
+          <p class="text-xs text-[#6B5A4E] mt-0.5">100% estratti naturali di mimosa e castagno toscano.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-3">
+        <div class="w-10 h-10 rounded-full bg-[#EADDCC] border border-[#C5B396] flex items-center justify-center shrink-0 text-[#78350F]"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path stroke-linecap="round" stroke-linejoin="round" d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"/></svg></div>
+        <div>
+          <h4 class="font-semibold text-sm text-[#3A2216]">Taglio a Mano</h4>
+          <p class="text-xs text-[#6B5A4E] mt-0.5">Lavorazione artigianale pezzo per pezzo, senza stampi industriali.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-3">
+        <div class="w-10 h-10 rounded-full bg-[#EADDCC] border border-[#C5B396] flex items-center justify-center shrink-0 text-[#78350F]"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        <div>
+          <h4 class="font-semibold text-sm text-[#3A2216]">Su Misura & Unico</h4>
+          <p class="text-xs text-[#6B5A4E] mt-0.5">Iniziali impresse a caldo e personalizzazione completa.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-3">
+        <div class="w-10 h-10 rounded-full bg-[#EADDCC] border border-[#C5B396] flex items-center justify-center shrink-0 text-[#78350F]"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 3"/></svg></div>
+        <div>
+          <h4 class="font-semibold text-sm text-[#3A2216]">Eterno nel Tempo</h4>
+          <p class="text-xs text-[#6B5A4E] mt-0.5">La pelle viva che acquista fascino e patina anno dopo anno.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Storytelling / Atelier -->
+  <section id="tradizione" class="py-16 sm:py-24 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="text-xs font-semibold tracking-widest uppercase text-[#9A3412] mb-2 block">
+          L'Eredità Fiorentina
+        </span>
+        <h2 class="font-editorial text-3xl sm:text-5xl font-bold text-[#2A180E] leading-tight mb-6">
+          Nel cuore di Santo Spirito, dove il profumo del cuoio accoglie chi cerca l'autenticità.
+        </h2>
+        <div class="space-y-4 text-sm sm:text-base text-[#4E3E34] leading-relaxed">
+          <p>
+            Firenze e la concia del cuoio condividono secoli di storia comune lungo le rive dell'Arno. Alla <strong>Bottega Cuoio & Stile</strong>, rifiutiamo la produzione seriale e i compromessi delle grandi catene.
+          </p>
+          <p>
+            Ogni mattina, nel nostro laboratorio a vista in Via dei Serragli, selezioniamo i migliori manti di pelle toscana a pieno fiore. Tagliati al trincetto, smussati, rifiniti a cera d'api e cuciti con filo cerato ad alta tenacità, i nostri manufatti sono pensati per essere tramandati.
+          </p>
+        </div>
+        <div class="mt-8 pt-6 border-t border-[#E5DAC6] flex items-center gap-6">
+          <div>
+            <span class="font-editorial text-3xl font-bold text-[#78350F]">1996</span>
+            <p class="text-xs text-[#7A6B5F] uppercase tracking-wider font-medium">Anno di Fondazione</p>
+          </div>
+          <div class="h-8 w-px bg-[#E5DAC6]"></div>
+          <div>
+            <span class="font-editorial text-3xl font-bold text-[#78350F]">100%</span>
+            <p class="text-xs text-[#7A6B5F] uppercase tracking-wider font-medium">Fatto a Firenze</p>
+          </div>
+          <div class="h-8 w-px bg-[#E5DAC6]"></div>
+          <div>
+            <span class="font-editorial text-3xl font-bold text-[#78350F]">Veg-Tan</span>
+            <p class="text-xs text-[#7A6B5F] uppercase tracking-wider font-medium">Pelle Certificata</p>
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+          <img src="assets/craft.jpg" alt="Artigiano al lavoro nella bottega di Firenze" class="w-full h-[420px] object-cover">
+        </div>
+        <div class="absolute -bottom-6 -left-6 sm:bottom-6 sm:-left-8 bg-[#3A2216] text-[#F5EFE6] p-4 sm:p-6 rounded-xl shadow-xl max-w-xs border border-[#5A3B2A]">
+          <p class="font-editorial text-lg italic leading-snug">
+            «Il vero cuoio non invecchia mai, vive insieme a chi lo indossa.»
+          </p>
+          <span class="block text-xs text-amber-300 font-sans mt-2 tracking-wide font-medium">— Maestro Marco, Fondatore</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalogue des Créations Phares -->
+  <section id="creazioni" class="py-16 sm:py-24 bg-[#F2ECE1] border-y border-[#DFD3BE] px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-semibold tracking-widest uppercase text-[#9A3412] mb-2 block">
+          Collezione Artigianale
+        </span>
+        <h2 class="font-editorial text-3xl sm:text-5xl font-bold text-[#2A180E] mb-4">
+          Le nostre creazioni più amate
+        </h2>
+        <p class="text-sm sm:text-base text-[#5A4B40]">
+          Disponibili in bottega o realizzabili nei colori cuoio naturale, testa di moro, cognac e nero fiorentino.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Carte 1 : Borsa a tracolla -->
+        <div class="bg-white rounded-2xl overflow-hidden border border-[#E0D4BE] shadow-sm hover:shadow-md transition-all flex flex-col">
+          <div class="h-64 overflow-hidden relative">
+            <img src="assets/bag.jpg" alt="Borsa a tracolla in pelle conciata al vegetale" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-[#78350F] text-white text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded">
+              Pezzo Iconico
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex justify-between items-baseline mb-2">
+                <h3 class="font-editorial text-2xl font-bold text-[#2A180E]">Borsa "Santo Spirito"</h3>
+                <span class="text-xs font-semibold text-[#8C6D4F] uppercase">Modello Tracolla</span>
+              </div>
+              <p class="text-xs sm:text-sm text-[#5C4D42] mb-4 leading-relaxed">
+                Pelle pieno fiore tamponata a mano, chiusura in ottone massiccio anticato, scomparto interno foderato in puro cotone e tasca porta-smartphone.
+              </p>
+              <ul class="text-xs text-[#7A6B5F] space-y-1 mb-6">
+                <li>• Dimensioni: 28 x 20 x 8 cm</li>
+                <li>• Tracolla regolabile e amovibile</li>
+                <li>• Personalizzazione cifre gratuita</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/39055987654?text=Buongiorno%2C%20vorrei%20informazioni%20sulla%20Borsa%20Santo%20Spirito" target="_blank" class="w-full py-2.5 px-4 rounded-lg bg-[#FAF5ED] hover:bg-[#78350F] text-[#78350F] hover:text-white border border-[#CBB89A] hover:border-[#78350F] text-xs font-semibold uppercase tracking-wider text-center transition-all flex items-center justify-center gap-2">
+              Richiedi Disponibilità via WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Carte 2 : Cartella da lavoro -->
+        <div class="bg-white rounded-2xl overflow-hidden border border-[#E0D4BE] shadow-sm hover:shadow-md transition-all flex flex-col">
+          <div class="h-64 overflow-hidden relative">
+            <img src="assets/hero.jpg" alt="Cartella professionale in cuoio toscano" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-[#261E1A] text-amber-300 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded">
+              Professionale
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex justify-between items-baseline mb-2">
+                <h3 class="font-editorial text-2xl font-bold text-[#2A180E]">Cartella "Ponte Vecchio"</h3>
+                <span class="text-xs font-semibold text-[#8C6D4F] uppercase">Ventiquattr'ore</span>
+              </div>
+              <p class="text-xs sm:text-sm text-[#5C4D42] mb-4 leading-relaxed">
+                Struttura rinforzata per laptop fino a 15", scomparti documenti, impugnatura ergonomica in cuoio cucita a punto sellaio e tracolla comfort.
+              </p>
+              <ul class="text-xs text-[#7A6B5F] space-y-1 mb-6">
+                <li>• Dimensioni: 40 x 30 x 10 cm</li>
+                <li>• Finiture in ottone brunito</li>
+                <li>• Garanzia a vita sulle cuciture</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/39055987654?text=Buongiorno%2C%20vorrei%20informazioni%20sulla%20Cartella%20Ponte%20Vecchio" target="_blank" class="w-full py-2.5 px-4 rounded-lg bg-[#FAF5ED] hover:bg-[#78350F] text-[#78350F] hover:text-white border border-[#CBB89A] hover:border-[#78350F] text-xs font-semibold uppercase tracking-wider text-center transition-all flex items-center justify-center gap-2">
+              Richiedi Disponibilità via WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Carte 3 : Portafoglio & Accessori -->
+        <div class="bg-white rounded-2xl overflow-hidden border border-[#E0D4BE] shadow-sm hover:shadow-md transition-all flex flex-col">
+          <div class="h-64 overflow-hidden relative">
+            <img src="assets/wallet.jpg" alt="Portafoglio compatto artigianale in cuoio naturale" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-[#556B2F] text-white text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded">
+              Idea Regalo
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex justify-between items-baseline mb-2">
+                <h3 class="font-editorial text-2xl font-bold text-[#2A180E]">Portafoglio "Signoria"</h3>
+                <span class="text-xs font-semibold text-[#8C6D4F] uppercase">Piccola Pelletteria</span>
+              </div>
+              <p class="text-xs sm:text-sm text-[#5C4D42] mb-4 leading-relaxed">
+                Design sottile da tasca, 8 alloggiamenti per carte, vano banconote e tasca portamonete a soffietto. Bordi tinti e lucidati a mano.
+              </p>
+              <ul class="text-xs text-[#7A6B5F] space-y-1 mb-6">
+                <li>• Cuoio morbido al tatto</li>
+                <li>• Protezione anti-smagnetizzazione</li>
+                <li>• Confezione artigianale inclusa</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/39055987654?text=Buongiorno%2C%20vorrei%20informazioni%20sul%20Portafoglio%20Signoria" target="_blank" class="w-full py-2.5 px-4 rounded-lg bg-[#FAF5ED] hover:bg-[#78350F] text-[#78350F] hover:text-white border border-[#CBB89A] hover:border-[#78350F] text-xs font-semibold uppercase tracking-wider text-center transition-all flex items-center justify-center gap-2">
+              Richiedi Disponibilità via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Module Sur-Mesure / Personalizzazione -->
+  <section id="su-misura" class="py-16 sm:py-24 px-4 sm:px-6 max-w-5xl mx-auto">
+    <div class="bg-[#2B1F19] text-[#FAF5ED] rounded-3xl p-8 sm:p-12 shadow-xl border border-[#443329] relative overflow-hidden">
+      <div class="max-w-2xl relative z-10">
+        <span class="inline-block py-1 px-3 rounded-full bg-amber-900/60 border border-amber-600/30 text-amber-300 text-xs tracking-widest uppercase font-semibold mb-4">
+          Servizio Su Ordinazione
+        </span>
+        <h2 class="font-editorial text-3xl sm:text-5xl font-bold mb-4 leading-tight">
+          Hai in mente un progetto speciale o un regalo unico?
+        </h2>
+        <p class="text-stone-300 text-sm sm:text-base leading-relaxed mb-6 font-light">
+          Possiamo realizzare cinture su misura tagliate sul momento, incidere le vostre iniziali a caldo o sviluppare un modello personalizzato secondo le vostre specifiche.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 text-xs">
+          <div class="bg-[#3D2C24] p-3.5 rounded-xl border border-[#523D32]">
+            <span class="text-amber-400 font-bold block mb-1">1. Scelta Pellame</span>
+            Pelle pieno fiore conciata al naturale, colorazione a tampone.
+          </div>
+          <div class="bg-[#3D2C24] p-3.5 rounded-xl border border-[#523D32]">
+            <span class="text-amber-400 font-bold block mb-1">2. Dettagli & Cifre</span>
+            Iniziali in foglia d'oro o a secco con caratteri d'epoca.
+          </div>
+          <div class="bg-[#3D2C24] p-3.5 rounded-xl border border-[#523D32]">
+            <span class="text-amber-400 font-bold block mb-1">3. Consegna Rapida</span>
+            Ritiro in bottega a Firenze o spedizione assicurata in tutto il mondo.
+          </div>
+        </div>
+        <a href="https://wa.me/39055987654?text=Buongiorno%20Maestro%2C%20vorrei%20un%20preventivo%20per%20un%20pezzo%20su%20misura" target="_blank" class="inline-flex items-center gap-3 px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-semibold text-xs tracking-wider uppercase transition-all shadow-lg">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.19.014.305-.058.115-.087.187-.173.289l-.26.309c-.087.088-.179.183-.077.358.101.174.45 1.745 1.637 2.784.456.401.839.525 1.056.634.188.094.298.079.409-.049.111-.128.477-.557.604-.748.127-.19.255-.16.425-.097.17.063 1.082.51 1.269.604.187.094.312.141.358.219.046.078.046.45-.098.855z"/></svg>
+          Parla del tuo progetto con l'Artigiano
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Témoignages & Réputation Locale -->
+  <section class="py-16 bg-[#F8F4ED] border-t border-[#E5DAC6] px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-10">
+        <div class="inline-flex items-center gap-1 text-amber-500 mb-2">
+          ★★★★★
+        </div>
+        <h3 class="font-editorial text-2xl sm:text-3xl font-bold text-[#2A180E]">
+          Cosa dicono i nostri clienti ed estimatori
+        </h3>
+        <p class="text-xs text-[#7A6B5F] uppercase tracking-wider font-semibold">4.9 / 5 su oltre 180 valutazioni autentiche</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl border border-[#E2D6C1] shadow-sm">
+          <p class="text-xs sm:text-sm text-[#4A3B32] italic mb-4 leading-relaxed">
+            «Ho acquistato una cartella da lavoro tre anni fa. Più passa il tempo, più il cuoio prende una sfumatura dorata incredibile. Una qualità che nei negozi del centro non si trova più.»
+          </p>
+          <div class="flex items-center gap-2">
+            <span class="w-8 h-8 rounded-full bg-amber-100 text-[#78350F] flex items-center justify-center font-bold text-xs">LM</span>
+            <div>
+              <h5 class="text-xs font-bold text-[#2A180E]">Lorenzo M.</h5>
+              <span class="text-[10px] text-[#8C7B6E]">Firenze • Cliente abituale</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-[#E2D6C1] shadow-sm">
+          <p class="text-xs sm:text-sm text-[#4A3B32] italic mb-4 leading-relaxed">
+            «La cortesia di farsi personalizzare una cintura sul momento con le proprie misure esatte e le iniziali incise. Un vero laboratorio toscano d'altri tempi. Complimenti sinceri!»
+          </p>
+          <div class="flex items-center gap-2">
+            <span class="w-8 h-8 rounded-full bg-amber-100 text-[#78350F] flex items-center justify-center font-bold text-xs">FB</span>
+            <div>
+              <h5 class="text-xs font-bold text-[#2A180E]">Federico B.</h5>
+              <span class="text-[10px] text-[#8C7B6E]">Milano • Ordine su misura</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-[#E2D6C1] shadow-sm">
+          <p class="text-xs sm:text-sm text-[#4A3B32] italic mb-4 leading-relaxed">
+            «Profumo di vero cuoio naturale appena si varca la soglia. La borsa Santo Spirito è stata un regalo per mia moglie che è rimasta incantata. Torneremo sicuramente!»
+          </p>
+          <div class="flex items-center gap-2">
+            <span class="w-8 h-8 rounded-full bg-amber-100 text-[#78350F] flex items-center justify-center font-bold text-xs">GR</span>
+            <div>
+              <h5 class="text-xs font-bold text-[#2A180E]">Giulia & Roberto</h5>
+              <span class="text-[10px] text-[#8C7B6E]">Roma • Turisti in visita</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Localisation & Contact / Atelier -->
+  <section id="contatti" class="py-16 sm:py-20 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="bg-white rounded-2xl border border-[#DECDB5] p-6 sm:p-10 shadow-sm grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div>
+        <span class="text-xs font-semibold tracking-widest uppercase text-[#9A3412] mb-1 block">
+          Vieni a Trovarci
+        </span>
+        <h2 class="font-editorial text-3xl sm:text-4xl font-bold text-[#2A180E] mb-4">
+          La Bottega a Firenze
+        </h2>
+        <p class="text-sm text-[#5C4D42] mb-6">
+          Siamo nel cuore autentico dell'Oltrarno fiorentino, a pochi passi da Piazza Santo Spirito e Palazzo Pitti. Vi aspettiamo per farvi toccare con mano la qualità del nostro pellame.
+        </p>
+
+        <div class="space-y-3 text-xs sm:text-sm text-[#3E3027]">
+          <div class="flex items-start gap-3">
+            <svg class="w-4 h-4 text-amber-800 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <div>
+              <strong>Indirizzo :</strong> Via dei Serragli 34/R, 50124 Firenze (FI)
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <svg class="w-4 h-4 text-amber-800 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 3"/></svg>
+            <div>
+              <strong>Orari :</strong> Lunedì - Sabato: 09:30 - 13:00 / 15:00 - 19:30 (Domenica chiuso)
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <svg class="w-4 h-4 text-amber-800 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <div>
+              <strong>Telefono Fisso :</strong> <a href="tel:+39055987654" class="text-[#9A3412] hover:underline font-semibold">+39 055 987654</a>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <svg class="w-4 h-4 text-emerald-700 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+            <div>
+              <strong>WhatsApp Diretto :</strong> <a href="https://wa.me/39055987654" class="text-emerald-700 hover:underline font-semibold">+39 055 987654</a>
+            </div>
+          </div>
+          <div class="flex items-start gap-3">
+            <svg class="w-4 h-4 text-amber-800 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <div>
+              <strong>Email :</strong> <a href="mailto:cuoioestile.firenze@gmail.com" class="text-[#9A3412] hover:underline">cuoioestile.firenze@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="https://maps.google.com/?q=Via+dei+Serragli+34+Firenze" target="_blank" class="px-5 py-2.5 rounded-lg bg-[#3A2216] hover:bg-[#26150D] text-amber-50 text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center gap-2">
+            <svg class="w-4 h-4 text-amber-200 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg><span>Apri su Google Maps</span>
+          </a>
+          <a href="https://wa.me/39055987654?text=Buongiorno%2C%20vorrei%20sapere%20se%20siete%20aperti%20oggi" target="_blank" class="px-5 py-2.5 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center gap-2">
+            <svg class="w-4 h-4 text-white shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg><span>Contatto Immediato</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-[#FAF7F2] p-6 rounded-xl border border-[#E5DAC6] text-center flex flex-col items-center justify-center min-h-[300px]">
+        <div class="w-12 h-12 rounded-full bg-[#EADDCC] border border-[#C5B396] flex items-center justify-center mb-3 text-amber-800"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div>
+        <h4 class="font-editorial text-2xl font-bold text-[#3A2216] mb-2">Cuoio & Stile Firenze</h4>
+        <p class="text-xs text-[#7A6B5F] max-w-sm mb-4">
+          Bottega artigiana iscritta all'Albo degli Artigiani Tradizionali della Toscana. Certificazione di origine e garanzia di qualità su ogni manufatto.
+        </p>
+        <div class="p-3 bg-white rounded-lg border border-[#E0D4BD] text-[11px] text-[#55463C] max-w-xs text-left">
+          <strong>Hai visto un modello sulla nostra pagina Facebook?</strong><br>
+          Inviaci una foto o uno screenshot su WhatsApp e ti daremo disponibilità e prezzo in pochi minuti!
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer officiel & mentions -->
+  <footer class="bg-[#1C1613] text-[#A6978C] text-xs py-10 px-4 border-t border-[#302621]">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+      <div>
+        <p class="font-editorial text-lg text-amber-100 font-bold tracking-wide">Cuoio & Stile — Bottega Artigiana</p>
+        <p class="text-[11px] text-[#7A6B5F] mt-0.5">Via dei Serragli 34/R, 50124 Firenze • P.IVA 04892110482</p>
+      </div>
+      <div class="text-[11px] text-stone-500">
+        Demo proposta da <strong class="text-amber-400">Codabee</strong> • Soluzioni digitali ad alto impatto per l'artigianato italiano
+      </div>
+    </div>
+  </footer>
+
+  <!-- Barre d'action fixe mobile (Mobile-first bottom bar) -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 bg-[#261E1A] border-t border-[#443329] px-4 py-2.5 flex items-center justify-between sm:hidden shadow-2xl">
+    <a href="tel:+39055987654" class="flex flex-col items-center justify-center text-amber-100 text-[10px] font-medium flex-1">
+      <svg class="w-4 h-4 mb-0.5 text-amber-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+      Chiama Bottega
+    </a>
+    <div class="w-px h-6 bg-[#4A3B32]"></div>
+    <a href="https://wa.me/39055987654?text=Buongiorno%2C%20vorrei%20informazioni%20sulle%20vostre%20creazioni" target="_blank" class="flex items-center justify-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold py-2 px-4 rounded-lg flex-[2] mx-2 shadow-md">
+      <svg class="w-4 h-4 text-white shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg><span>WhatsApp</span>
+    </a>
+    <div class="w-px h-6 bg-[#4A3B32]"></div>
+    <a href="https://maps.google.com/?q=Via+dei+Serragli+34+Firenze" target="_blank" class="flex flex-col items-center justify-center text-amber-100 text-[10px] font-medium flex-1">
+      <svg class="w-4 h-4 mb-0.5 text-amber-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+      Mappa
+    </a>
+  </div>
+
+</body>
+</html>
